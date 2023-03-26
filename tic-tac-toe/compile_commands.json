@@ -1,0 +1,19 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-Wall",
+      "-Wextra",
+      "-std=c++20",
+      "-I/usr/include/qt",
+      "-I/usr/include/cppitertools",
+      "-c",
+      "-o",
+      "board.o",
+      "board.cpp"
+    ],
+    "directory": "/home/umi/Desktop/projects/tic-tac-toe",
+    "file": "/home/umi/Desktop/projects/tic-tac-toe/board.cpp",
+    "output": "/home/umi/Desktop/projects/tic-tac-toe/board.o"
+  }
+]
