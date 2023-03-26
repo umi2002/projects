@@ -1,8 +1,6 @@
 #pragma once
 
-#include "tic-tac-toe.h"
-#include "interface.h"
-#include "board.h"
+#include "../libraries.h"
 
 class Box : public QLabel
 { 

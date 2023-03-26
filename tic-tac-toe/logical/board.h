@@ -1,8 +1,6 @@
 #pragma once
 
-#include "tic-tac-toe.h"
-#include "interface.h"
-#include "box.h"
+#include "../libraries.h"
 
 class Board : public QObject
 {

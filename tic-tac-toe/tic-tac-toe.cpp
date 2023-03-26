@@ -1,4 +1,3 @@
-#include "tic-tac-toe.h"
 #include "interface.h"
 
 int main(int argc, char *argv[])

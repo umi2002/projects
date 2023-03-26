@@ -1,8 +1,7 @@
 #pragma once
 
-#include "tic-tac-toe.h"
-#include "board.h"
 #include "box.h"
+#include "../logical/board.h"
 
 class Interface : public QMainWindow
 {

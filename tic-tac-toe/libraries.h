@@ -10,7 +10,3 @@
 #include <QtGui/QMouseEvent>
 #include <QtCore/QSignalMapper>
 #include <QtCore/QString>
-
-#include "interface.h"
-#include "box.h"
-#include "board.h"

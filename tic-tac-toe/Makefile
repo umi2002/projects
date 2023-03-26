@@ -1,15 +1,15 @@
 # Compiler options
 CXX = g++
 CXXFLAGS = -Wall -Wextra -std=c++20
-INCLUDES = -I/usr/include/qt -I/usr/include/cppitertools
+INCLUDES = -I/usr/include/qt -I/usr/include/cppitertools -I./logical/ -I./graphical/
 OBJECTS=$(SOURCES:.cpp=.o) $(MOC_SOURCES:.cpp=.o)
 
 # Linker options
 LDLIBS = -lQt5Core -lQt5Gui -lQt5Widgets
 
 # Source files
-SRCS = $(wildcard *.cpp)
-MOC_HEADERS = $(wildcard *.h)
+SRCS = $(wildcard *.cpp) $(wildcard logical/*.cpp) $(wildcard graphical/*.cpp)
+MOC_HEADERS = $(wildcard *.h) $(wildcard logical/*.h) $(wildcard graphical/*.h)
 MOC_SOURCES=$(MOC_HEADERS:.h=.moc.cpp)
 
 # Object files
