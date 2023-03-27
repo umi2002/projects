@@ -3,21 +3,20 @@
 #include "../libraries.h"
 
 class Box : public QLabel
-{ 
-    Q_OBJECT 
+{
+	Q_OBJECT
 
 public:
-    explicit Box(int x, int y, QWidget* parent = Q_NULLPTR);
-    ~Box();
+	explicit Box(int x, int y, QWidget* parent = Q_NULLPTR);
+	~Box();
 
 private:
-    int x_ = 0;
-    int y_ = 0;
+	int x_ = 0;
+	int y_ = 0;
 
 protected:
-    void mouseReleaseEvent(QMouseEvent* event);
+	void mouseReleaseEvent(QMouseEvent* event);
 
 signals:
-    void isClicked(int x, int y);
-
+	void isClicked(int x, int y);
 };

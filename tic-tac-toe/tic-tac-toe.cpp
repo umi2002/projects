@@ -1,10 +1,10 @@
 #include "interface.h"
 
-int main(int argc, char *argv[])
+int main(int argc, char* argv[])
 {
-    QApplication app(argc, argv);
+	QApplication app(argc, argv);
 
-    Interface window;
+	Interface window;
 
-    return app.exec();
+	return app.exec();
 }

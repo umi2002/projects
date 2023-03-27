@@ -1,12 +1,12 @@
 #pragma once
 
-#include <vector>
-#include <range.hpp>
-#include <QtWidgets/QApplication>
-#include <QtWidgets/QMainWindow>
-#include <QtWidgets/QLabel>
-#include <QtWidgets/QHBoxLayout>
-#include <QtWidgets/QVBoxLayout>
-#include <QtGui/QMouseEvent>
 #include <QtCore/QSignalMapper>
 #include <QtCore/QString>
+#include <QtGui/QMouseEvent>
+#include <QtWidgets/QApplication>
+#include <QtWidgets/QHBoxLayout>
+#include <QtWidgets/QLabel>
+#include <QtWidgets/QMainWindow>
+#include <QtWidgets/QVBoxLayout>
+#include <range.hpp>
+#include <vector>

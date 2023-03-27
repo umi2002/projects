@@ -1,6 +1,6 @@
 # Compiler options
 CXX = g++
-CXXFLAGS = -Wall -Wextra -std=c++20
+CXXFLAGS = -g -Wall -Wextra -std=c++20
 INCLUDES = -I/usr/include/qt -I/usr/include/cppitertools -I./logical/ -I./graphical/
 OBJECTS=$(SOURCES:.cpp=.o) $(MOC_SOURCES:.cpp=.o)
 
